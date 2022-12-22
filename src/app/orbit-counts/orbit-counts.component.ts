@@ -10,7 +10,7 @@ export class OrbitCountsComponent implements OnInit {
 	
 
 	@Input() satellites: Satellite[];
-	
+	/* satelliteCount=this.countByType() */
 
   constructor() { }
 
