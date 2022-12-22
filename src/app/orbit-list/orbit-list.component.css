@@ -7,6 +7,14 @@
 	background-color: #da8a8a;
 }
 
+/* .zebra-row{
+	background-color:#dd80dd
+} 
+ */
+.data-row:nth-child(odd){
+	background-color: #dd80dd;
+}
+
 table {
  color: #111;
  border-radius: 5px;
