@@ -7,8 +7,10 @@ import { Satellite } from '../satellite';
   styleUrls: ['./orbit-counts.component.css']
 })
 export class OrbitCountsComponent implements OnInit {
+	
 
 	@Input() satellites: Satellite[];
+	
 
   constructor() { }
 
